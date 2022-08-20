@@ -12,6 +12,7 @@
     />
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg" style="background-color: #ffffff">
       <div class="container">
         <span class="navbar-brand mb-0 h1 font-monospace" href="#">
@@ -55,16 +56,21 @@
         </div>
       </div>
     </nav>
+    <!-- LINE ANIMATION CHART -->
     <div class="container">
       <canvas id="myChart"></canvas>
     </div>
+    <br />
+    <br />
+    <br />
+    <!-- INFO CARDS -->
     <div class="container">
       <br />
-      <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body text-primary">
-              <h5 class="card-title">
+              <h5 class="card-title text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -77,7 +83,7 @@
                     d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"
                   />
                 </svg>
-                Manually Sourced & Fully Vetted
+                Manually Sourced & Vetted
               </h5>
               <p class="card-text">
                 Each lead is manually sourced and fully vetted in the USA by a
@@ -89,7 +95,7 @@
         <div class="col">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body text-primary">
-              <h5 class="card-title">
+              <h5 class="card-title text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -114,7 +120,7 @@
         <div class="col">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body text-primary">
-              <h5 class="card-title">
+              <h5 class="card-title text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="22"
@@ -140,15 +146,21 @@
       <br />
     </div>
     <br />
+    <br />
+    <br />
+    <!-- GRADIENT INFO CARDS -->
     <div class="container">
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
-          <div class="card border-info shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white shadow p-3 mb-5 bg-body rounded"
+            style="background: linear-gradient(150deg, #f731db, #4600f1 100%)"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#6495ed"
+              fill="#f2f2f2"
               class="bi bi-cash card-img-top"
               viewBox="0 0 16 16"
             >
@@ -167,12 +179,15 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-primary shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white shadow p-3 mb-5 bg-body rounded"
+            style="background: linear-gradient(150deg, #f12711, #f5af19 100%)"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#dfff00"
+              fill="#f2f2f2"
               class="bi bi-hourglass-split card-img-top"
               viewBox="0 0 16 16"
             >
@@ -190,12 +205,15 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-info shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white shadow p-3 mb-5 bg-body rounded"
+            style="background: linear-gradient(150deg, #39ef74, #4600f1 100%)"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#ffbf00"
+              fill="#ffffff"
               class="bi bi-plus card-img-top"
               viewBox="0 0 16 16"
             >
@@ -213,12 +231,15 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-primary shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white shadow p-3 mb-5 bg-body rounded"
+            style="background: linear-gradient(150deg, #fffc00, #f322e2 100%)"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#ff7f50"
+              fill="#ffffff"
               class="bi bi-bag-heart card-img-top"
               viewBox="0 0 16 16"
             >
@@ -237,12 +258,18 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-primary shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white shadow p-3 mb-5 bg-body rounded"
+            style="
+              background-color: #08aeea;
+              background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+            "
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#de3163"
+              fill="#ffffff"
               class="bi bi-person-check card-img-top"
               viewBox="0 0 16 16"
             >
@@ -264,12 +291,15 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-info shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white shadow p-3 mb-5 bg-body rounded"
+            style="background: linear-gradient(150deg, #fc00ff, #00dbde 100%)"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#9fe2bf"
+              fill="#ffffff"
               class="bi bi-list-columns-reverse card-img-top"
               viewBox="0 0 16 16"
             >
@@ -288,12 +318,22 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-primary shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white border-primary shadow p-3 mb-5 bg-body rounded"
+            style="
+              background-color: #fad961;
+              background-image: linear-gradient(
+                90deg,
+                #fad961 0%,
+                #f76b1c 100%
+              );
+            "
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#ff22ff"
+              fill="#ffffff"
               class="bi bi-cart-plus card-img-top"
               viewBox="0 0 16 16"
             >
@@ -314,12 +354,21 @@
           </div>
         </div>
         <div class="col">
-          <div class="card border-info shadow p-3 mb-5 bg-body rounded">
+          <div
+            class="card border-light text-white shadow p-3 mb-5 bg-body rounded"
+            style="
+              background-image: linear-gradient(
+                90deg,
+                #74ebd5 0%,
+                #9face6 100%
+              );
+            "
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="64"
               height="64"
-              fill="#ff0000"
+              fill="#ffffff"
               class="bi bi-telephone-plus card-img-top"
               viewBox="0 0 16 16"
             >
@@ -342,8 +391,11 @@
         </div>
       </div>
     </div>
-    <hr />
+    <br />
+    <br />
+    <!-- TESTIMONIALS -->
     <div class="container">
+      <hr />
       <h1 class="display-6 text-center">Testimonials</h1>
       <div class="row">
         <div class="col"></div>
@@ -423,13 +475,15 @@
         </div>
         <div class="col"></div>
       </div>
+      <hr />
     </div>
-    <hr />
+    <br />
+    <!-- FOOTER -->
     <div class="container">
       <footer class="py-5">
         <div class="row">
           <div class="col">
-            <h5>Section</h5>
+            <h5>OA Shahrp</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-muted">Home</a>
@@ -439,9 +493,6 @@
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">FAQs</a>
               </li>
               <li class="nav-item mb-2">
                 <a href="#" class="nav-link p-0 text-muted">About</a>
@@ -497,24 +548,24 @@
         </div>
       </footer>
     </div>
+    <!-- bootstrap and chartjs libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <!-- chartjs codding -->
     <script>
       const data = [];
       const data2 = [];
       const data3 = [];
       const data4 = [];
-      const data5 = [];
       let prev = 90;
       let prev2 = 70;
       let prev3 = 60;
-      let prev4 = 50;
-      let prev5 = 20;
-      for (let i = 0; i < 100; i++) {
+      let prev4 = 40;
+      for (let i = 0; i < 200; i++) {
         prev += 5 - Math.random() * 10;
         data.push({ x: i, y: prev });
         prev2 += 5 - Math.random() * 10;
@@ -523,8 +574,6 @@
         data3.push({ x: i, y: prev3 });
         prev4 += 5 - Math.random() * 10;
         data4.push({ x: i, y: prev4 });
-        prev5 += 5 - Math.random() * 10;
-        data5.push({ x: i, y: prev5 });
       }
       const totalDuration = 10000;
       const delayBetweenPoints = totalDuration / data.length;
@@ -590,12 +639,6 @@
               radius: 0,
               data: data4,
             },
-            {
-              borderColor: "rgb(153, 102, 255)",
-              borderWidth: 4,
-              radius: 0,
-              data: data5,
-            },
           ],
         },
         options: {
@@ -608,15 +651,47 @@
             title: {
               display: true,
               text: "Product prices over time",
+              font: {
+                size: 16,
+              },
+            },
+            tooltip: {
+              enabled: false,
             },
           },
           scales: {
             x: {
-              display: false,
+              ticks: {
+                display: false,
+              },
+              display: true,
               type: "linear",
+              title: {
+                display: true,
+                text: "Time",
+                font: {
+                  size: 18,
+                },
+              },
+              grid: {
+                color: "#ffffff",
+              },
             },
             y: {
-              display: false,
+              ticks: {
+                display: false,
+              },
+              display: true,
+              title: {
+                display: true,
+                text: "Prices",
+                font: {
+                  size: 18,
+                },
+              },
+              grid: {
+                color: "#ffffff",
+              },
             },
           },
         },
